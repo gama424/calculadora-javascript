@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(45deg, black, #727272);
+
+}
+
+.fundo{
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+
+
+.calculadora{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    padding: 15px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+}
+
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #222222;
+    border: none;
+    color: #fdb515;
+}
+
+.botao:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+#igual{
+    height: 106px;
+}
+
+#zero{
+    width: 106px;
+}
+#clear{
+    font-size: 16px;
+    font-family: emoji;
+
+}
+
+#resultado{
+    width: 213px;
+    background-color: rgb(99, 99, 99);
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    text-align: right;
+    padding: 5px;
+    color: #fdb515;
+}
+
+
+
+
+footer{
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+  }
+  
+  
+  footer p{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 65px;
+  padding-top: 25px;
+  font-size: 45px;
+  color: white;
+  text-shadow: 0 0 0.2em #000000
+  
+  
+  }
+  
+  
+  footer img{
+      width: 35%;
+      display: block;
+      margin: auto;
+      max-width: 100%;
+      height: auto;
+  }
+  
